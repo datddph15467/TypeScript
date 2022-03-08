@@ -1,0 +1,2 @@
+tsc ten file                tao file ts->js
+tsc --watch ten file        cho phep thay doi khi sua code
