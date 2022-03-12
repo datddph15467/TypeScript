@@ -14,3 +14,14 @@ function sum(numA, numB) {
 }
 sum(a, b);
 console.log(objectArr);
+const products = [
+    { id: 1, name: "Product A" },
+    { id: 2, name: "Product B" },
+];
+function show(products) {
+    const result = products.map(item => `<div>${item.name}</div>`);
+}
+show(products);
+function sum2(a, b, callback) {
+    return a + b;
+}
