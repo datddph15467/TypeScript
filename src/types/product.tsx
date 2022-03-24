@@ -1,4 +1,10 @@
 export interface IProduct{
-    _id: number, 
-    name: string
+    id?: number, 
+    name: string,
+    price:number
+}
+export type ProductTye = {
+    id?: number,
+    name: string,
+    price: number
 }
